@@ -61,7 +61,7 @@ Cybersecurity Graduate with multi-cloud foundation building specialized expertis
 - Primary Tools: PowerShell, Visual Studio Code, Azure CLI
 - Cloud Platforms: Microsoft Azure (primary), Amazon Web Services
 - Version Control: Git, GitHub for portfolio management
-- : Markdown, technical writing standards
+- Documentation: Markdown, technical writing standards
 
 ## Portfolio Approach
 This repository demonstrates practical application of Azure IAM concepts through:
