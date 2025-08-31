@@ -81,7 +81,7 @@ All projects follow enterprise security standards:
 - Compliance with industry frameworks and best practices
   
 ## Professional Contact
-Portfolio Repository: [View Live Projects](https://github.com/cama17/azure-iam-portfolio)
-Professional Summary: Available upon request
-Social Media: [LinkedIn](https://www.linkedin.com/in/mcguinnesscraig/)
-References: Available upon request
+- Portfolio Repository: [View Live Projects](https://github.com/cama17/azure-iam-portfolio)
+- Social Media: [LinkedIn](https://www.linkedin.com/in/mcguinnesscraig/)
+- References: Available upon request
+  
