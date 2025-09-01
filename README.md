@@ -10,7 +10,7 @@ Cybersecurity Graduate with multi-cloud foundational curiosity and building spec
 ## Hands-On Projects
 
 1. Enterprise SSO Implementation with Security Monitoring
-- Status: Completed ✅
+- Status: completed ✅
 - Technologies: Azure Entra ID, Conditional Access, Microsoft-356 Admin Center, Zendesk
 - Scenario: Implementing and securing SSO for enterprise applications with automated threat detection and response
 - [View Project](./Projects/01-enterprise-sso/)
