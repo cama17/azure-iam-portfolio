@@ -1,4 +1,4 @@
-## Azure Identity & Access Management Portfolio
+## Identity & Access Management Portfolio
 Demonstrates Azure IAM expertise via practical projects, automation, and thorough details. All projects use test environments with sanitized data, following security best practices.
 
 ## Professional Objective
