@@ -19,7 +19,7 @@ Cybersecurity Graduate with multi-cloud foundational curiosity and building spec
 - Status: completed ✅
 - Technologies: Entra ID, SCIM 2.0, User Provisioning, Zendesk
 - Scenario: Implement automated provisioning/deprovisioning of Zendesk users and groups via Microsoft Entra ID SCIM connector
-- [View Project](./projects/02-zendesk-provisioning/)
+- [View Project](./Projects/02-zendesk-provisioning/)
 
 3. Zero Trust Identity Framework (Planned)
 - Staus: In progress ⏳
