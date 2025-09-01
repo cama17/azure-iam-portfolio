@@ -45,7 +45,7 @@ Cybersecurity Graduate with multi-cloud foundation building specialized expertis
 - Microsoft SC-300: Identity and Access Administrator (In Progress - Target: End of 2025)
 - Microsoft SC-900: Security, Compliance, and Identity Fundamentals (2025)
 
-**Multi-Cloud Foundation**
+**Amazon Web Services**
 - AWS Certified Cloud Practitioner (2025)
 
 ## Professional Development
