@@ -6,7 +6,7 @@ This document details how I integrated Zendesk with Microsoft Entra ID using **S
 - Go to **Microsoft Entra admin center** → **Enterprise applications** → **New application**.
 - Search for **Zendesk**, select it, and click **Create**.
 
-![Entra app setup](../screenshots/Entra%20-%20Zendesk%20app%20setup.png)
+![Entra app setup](../Screenshots/Entra%20-%20Zendesk%20app%20setup.png)
 
 ## 2. Configure SAML in Entra
 - Open the Zendesk app in Entra.
