@@ -8,19 +8,23 @@ Transitioning from cybersecurity education to Identity and Access Management (IA
 Cybersecurity Graduate with multi-cloud foundation building specialized expertise in Azure identity security, access management, and automation. Combining theoretical knowledge with practical implementation through real-world scenarios and enterprise-grade tooling.
 
 ## Hands-On Projects
+
 1. Enterprise SSO Implementation with Security Monitoring
 - Status: Completed
 - Technologies: Azure Entra ID, Conditional Access, Microsoft-356 Admin Center, Zendesk
 - Scenario: Implementing and securing SSO for enterprise applications with automated threat detection and response
 - [View Project](./Projects/01-enterprise-sso/)
 
+2. Zendesk SCIM Provisioning with MS Entra ID
+- Status: In Progress
+- Technologies: Entra ID, SCIM 2.0, User Provisioning, Zendesk
+- Scenario: Implement automated provisioning/deprovisioning of Zendesk users and groups via Microsoft Entra ID SCIM connector
 
-2. Zero Trust Identity Framework (Planned)
+3. Zero Trust Identity Framework (Planned)
 - Technologies: Conditional Access, Identity Protection, Privileged Identity Management
 - Scenario: Building comprehensive zero-trust identity security architecture
   
-
-3. Automated Privileged Access Management (Planned)
+4. Automated Privileged Access Management (Planned)
 - Technologies: Azure PIM, Access Reviews, Emergency Access Procedures
 - Scenario: Enterprise-grade privileged access controls with compliance automation
 
