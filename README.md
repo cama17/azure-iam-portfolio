@@ -14,11 +14,13 @@ Cybersecurity Graduate with multi-cloud foundation building specialized expertis
 - Scenario: Implementing and securing SSO for enterprise applications with automated threat detection and response
 - [View Project](./Projects/01-enterprise-sso/)
 
-1. Zero Trust Identity Framework (Planned)
+
+2. Zero Trust Identity Framework (Planned)
 - Technologies: Conditional Access, Identity Protection, Privileged Identity Management
 - Scenario: Building comprehensive zero-trust identity security architecture
+  
 
-1. Automated Privileged Access Management (Planned)
+3. Automated Privileged Access Management (Planned)
 - Technologies: Azure PIM, Access Reviews, Emergency Access Procedures
 - Scenario: Enterprise-grade privileged access controls with compliance automation
 
