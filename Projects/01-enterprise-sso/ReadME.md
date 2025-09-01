@@ -17,6 +17,6 @@ Configured Zendesk for **SAML SSO** using Microsoft Entra ID and enforced **Cond
 - Covers both identity lifecycle management (user onboarding) and authentication hardening.
 
 **Contents**
-- [Step-by-step documentation](./Documentation/setup.md)  
+- [Step-by-step documentation](./setup.md)  
 - [Screenshots](./Screenshots/)  
 - [Resources](./resources.md)

@@ -5,26 +5,29 @@ Demonstrates Azure IAM expertise via practical projects, automation, and thoroug
 Transitioning from cybersecurity education to Identity and Access Management (IAM), Security Engineering roles through hands-on project experience and advanced certification pursuit.
 
 ## Background
-Cybersecurity Graduate with multi-cloud foundation building specialized expertise in Azure identity security, access management, and automation. Combining theoretical knowledge with practical implementation through real-world scenarios and enterprise-grade tooling.
+Cybersecurity Graduate with multi-cloud foundational curiosity and building specialized expertise in Azure identity security, access management, and automation. Combining theoretical knowledge with practical implementation through real-world scenarios and enterprise-grade tooling.
 
 ## Hands-On Projects
 
 1. Enterprise SSO Implementation with Security Monitoring
-- Status: Completed
+- Status: Completed ✅
 - Technologies: Azure Entra ID, Conditional Access, Microsoft-356 Admin Center, Zendesk
 - Scenario: Implementing and securing SSO for enterprise applications with automated threat detection and response
 - [View Project](./Projects/01-enterprise-sso/)
 
 2. Zendesk SCIM Provisioning with MS Entra ID
-- Status: In Progress
+- Status: completed ✅
 - Technologies: Entra ID, SCIM 2.0, User Provisioning, Zendesk
 - Scenario: Implement automated provisioning/deprovisioning of Zendesk users and groups via Microsoft Entra ID SCIM connector
+- [View Project](./projects/02-zendesk-provisioning/)
 
 3. Zero Trust Identity Framework (Planned)
+- Staus: In progress ⏳
 - Technologies: Conditional Access, Identity Protection, Privileged Identity Management
 - Scenario: Building comprehensive zero-trust identity security architecture
   
 4. Automated Privileged Access Management (Planned)
+- Status: Not started ❌
 - Technologies: Azure PIM, Access Reviews, Emergency Access Procedures
 - Scenario: Enterprise-grade privileged access controls with compliance automation
 
