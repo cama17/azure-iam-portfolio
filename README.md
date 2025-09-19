@@ -1,4 +1,4 @@
-## Identity & Access Management Portfolio
+## Identity & Access Management Administrator Portfolio
 Demonstrates Azure IAM expertise via practical projects, automation, and thorough details. All projects use test environments with sanitized data, following security best practices.
 
 ## Professional Objective
@@ -21,16 +21,6 @@ Cybersecurity Graduate with multi-cloud foundational curiosity and building spec
 - Scenario: Implement automated provisioning/deprovisioning of Zendesk users and groups via Microsoft Entra ID SCIM connector
 - [View Project](./Projects/02-zendesk-provisioning/)
 
-3. Zero Trust Identity Framework (Planned)
-- Staus: In progress ⏳
-- Technologies: Conditional Access, Identity Protection, Privileged Identity Management
-- Scenario: Building comprehensive zero-trust identity security architecture
-  
-4. Automated Privileged Access Management (Planned)
-- Status: Not started ❌
-- Technologies: Azure PIM, Access Reviews, Emergency Access Procedures
-- Scenario: Enterprise-grade privileged access controls with compliance automation
-
 ## Technical Skills
 **Identity & Access Management**
 - Azure Entra ID Configuration & Administration
@@ -49,7 +39,7 @@ Cybersecurity Graduate with multi-cloud foundational curiosity and building spec
   
 ## Professional Certifications
 **Microsoft Security & Identity**
-- Microsoft SC-300: Identity and Access Administrator (In Progress - Target: End of 2025)
+- Microsoft AZ-104: Azure Administrator (In Progress - Target: End of 2025)
 - Microsoft SC-900: Security, Compliance, and Identity Fundamentals (2025)
 
 **Amazon Web Services**
@@ -80,14 +70,6 @@ This repository demonstrates practical application of Azure IAM concepts through
 - Automation Focus: PowerShell and API-driven solutions that scale beyond manual processes
 - Professional : Enterprise-standard  with proper data sanitization and security considerations
 - Continuous Improvement: Iterative enhancement based on industry feedback and emerging threats
-
-## Security & Compliance
-All projects follow enterprise security standards:
-
-- No exposure of production credentials or sensitive data
-- Proper data sanitization for public 
-- Security-by-design architecture principles
-- Compliance with industry frameworks and best practices
   
 ## Professional Contact
 - Portfolio Repository: [View Live Projects](https://github.com/cama17/azure-iam-portfolio)
