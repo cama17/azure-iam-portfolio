@@ -74,5 +74,4 @@ This repository demonstrates practical application of Azure IAM concepts through
 ## Professional Contact
 - Portfolio Repository: [View Live Projects](https://github.com/cama17/azure-iam-portfolio)
 - Social Media: [LinkedIn](https://www.linkedin.com/in/mcguinnesscraig/)
-- References: Available upon request
   
