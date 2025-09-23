@@ -18,5 +18,5 @@ Configured Zendesk for **SAML SSO** using Microsoft Entra ID and enforced **Cond
 
 **Contents**
 - [Step-by-step documentation](./setup.md)  
-- [Screenshots](./Screenshots/)  
+- [Screenshots](./screenshots/)  
 - [Resources](./resources.md)
