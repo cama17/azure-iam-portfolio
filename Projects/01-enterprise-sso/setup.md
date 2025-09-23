@@ -23,7 +23,7 @@ This document details how I integrated Zendesk with Microsoft Entra ID using **S
 - Paste in the **SAML SSO URL**, **Certificate Thumbprint**, and other values provided by Entra.
 
 ![Zendesk SSO setup page](./screenshots/Zendesk%20-%20SSO%20setup%20page.png)   
-![Zendesk > Entra Configuration](./screenshots/Zendesk%20%3E%20Entra%20Configuration.png)
+![Zendesk > Entra Configuration](./screenshots/Zendesk-Entra-Configuration.png)
 
 ## 4. Assign Users in Entra
 - In the Entra Zendesk app → **Users and groups** → assign test users/agents.
