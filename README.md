@@ -39,8 +39,10 @@ Cybersecurity Graduate with multi-cloud foundational curiosity and building spec
   
 ## Professional Certifications
 **Microsoft Security & Identity**
-- Microsoft AZ-104: Azure Administrator (In Progress - Target: End of 2025)
 - Microsoft SC-900: Security, Compliance, and Identity Fundamentals (2025)
+
+**Identity and Access Management**
+- Certified Access Management Specialist (2025)
 
 **Amazon Web Services**
 - AWS Certified Cloud Practitioner (2025)
