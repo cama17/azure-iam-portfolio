@@ -21,6 +21,12 @@ Cybersecurity Graduate with multi-cloud foundational curiosity and building spec
 - Scenario: Implement automated provisioning/deprovisioning of Zendesk users and groups via Microsoft Entra ID SCIM connector
 - [View Project](./Projects/02-zendesk-provisioning/)
 
+3. Stark Enterprise Active Directory Lab
+* Status: completed ✅
+* Technologies: Windows Server 2022, Active Directory Domain Services, DNS, PowerShell
+* Scenario: Designed and implemented a production-ready on-premises Active Directory environment for a fictional enterprise with 15 users across 6 departments, structured for future Entra ID hybrid identity synchronization
+* [View Project](/Projects/03-stark-enterprise-ad/README.md)
+
 ## Technical Skills
 **Identity & Access Management**
 - Azure Entra ID Configuration & Administration
