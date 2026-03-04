@@ -61,12 +61,12 @@ starkenterpriselab.com
 - **Cloud Readiness** — UPN suffix aligned for Entra ID Connect synchronization
 
 ## Documentation
-- [Phase 1 — Server Foundation](Documentation/phase1-server-foundation.md)
-- [Phase 2 — AD DS Installation](Documentation/phase2-adds-installation.md)
-- [Phase 3 — DC Promotion](Documentation/phase3-dc-promotion.md)
-- [Phase 4 — OU Structure](Documentation/phase4-ou-structure.md)
-- [Phase 5 — User Accounts](Documentation/phase5-user-accounts.md)
-- [Phase 6 — Verification](Documentation/phase6-verification.md)
+- [Phase 1 - Server Foundation](Documentation/Phase1-server-foundation.md)
+- [Phase 2 - AD DS Installation](Documentation/Phase2-adds-installation.md)
+- [Phase 3 - DC Promotion](Documentation/Phase3-dc-promotion.md)
+- [Phase 4 - OU Structure](Documentation/Phase4-ou-structure.md)
+- [Phase 5 - User Accounts](Documentation/Phase5-user-accounts.md)
+- [Phase 6 - Verification](Documentation/Phase6-verification.md)
 - [Design Decisions Log](Documentation/design-decisions.md)
 
 ## Skills Demonstrated
