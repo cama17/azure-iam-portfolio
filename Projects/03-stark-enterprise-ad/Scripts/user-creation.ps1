@@ -1,9 +1,9 @@
 # ============================================================
 # Stark Enterprise Active Directory - User Creation Script
-# Author: Craig McGuinness
+# Author: CAM
 # Description: Automates creation of all 15 Stark Enterprise
 #              user accounts across 6 Organizational Units
-# NOTE: Users were created manually in the lab environment to ensure proper OU placement.
+# IMPORTANT NOTE: Users were created manually in the lab environment to ensure proper OU placement.
 # This Script serves as a reference to demostrate the automaded equalent of the manual process and
 # would be used for bulk provisioning in a production environment.
 # ============================================================
@@ -11,8 +11,9 @@
 # Domain Variables
 $domain = "starkenterpriselab.com"
 $domainDN = "DC=starkenterpriselab,DC=com"
-$userPassword = ConvertTo-SecureString "Liverpool1!" -AsPlainText -Force
-$svcPassword = ConvertTo-SecureString "Samlizzy7!" -AsPlainText -Force
+#Passwords sanitized for public sharing - replace with secure values in production
+$userPassword = ConvertTo-SecureString "YourPasswordHere!" -AsPlainText -Force
+$svcPassword = ConvertTo-SecureString "YourServiceAccountPasswordHere!" -AsPlainText -Force
 
 # ============================================================
 # User Definitions
