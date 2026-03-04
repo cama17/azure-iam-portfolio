@@ -66,7 +66,7 @@ compatibility. In a real enterprise this would be set to match
 the oldest Domain Controller in the environment.
 
 **What is the DSRM password?**
-Directory Services Restore Mode — an emergency recovery password
+Directory Services Restore Mode is an emergency recovery password
 used only if AD becomes corrupted and needs repair. Completely
 separate from the Administrator password. In production this
 would be stored in a privileged password vault.

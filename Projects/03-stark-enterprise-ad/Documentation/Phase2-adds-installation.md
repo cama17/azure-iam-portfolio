@@ -35,14 +35,14 @@ fails entirely. Installing them together ensures they are
 configured to work with each other from the start.
 
 **Why are Installing and Promoting two separate steps?**
-Installing AD DS gives the server the capability to become a
-Domain Controller — like hiring someone for a job. Promotion
-is the configuration step that actually activates it — like
+Installing AD DS gives the server the capability to become a 
+Domain Controller, like hiring someone for a job. 
+Promotion is the configuration step that actually activates it like
 giving them their access and credentials on day one.
 
 **What are dependency features?**
 Software that AD DS requires to function properly. Windows
-automatically identifies and installs these — they do not
+automatically identifies and installs these, they do not
 need to be selected manually.
 
 ## Verification

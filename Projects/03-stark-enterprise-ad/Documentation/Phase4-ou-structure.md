@@ -75,9 +75,9 @@ irreversible without a backup restore. This protection forces
 a deliberate two-step process before any OU can be deleted.
 
 ## Security Principles Applied
-- Separation of Duties — service accounts isolated from human accounts
-- Least Privilege — granular policy application per department
-- Defense in Depth — accidental deletion protection on all OUs
+- Separation of Duties - service accounts isolated from human accounts
+- Least Privilege - granular policy application per department
+- Defense in Depth - accidental deletion protection on all OUs
 
 ## Verification
 - All 6 OUs visible in ADUC under starkenterpriselab.com

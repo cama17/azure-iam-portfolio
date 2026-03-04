@@ -7,7 +7,7 @@ OU placement, account health, and DNS resolution.
 
 ## Verification Approach
 Domain Controllers do not allow regular users to log in locally
-by default. This is the Least Privilege security principle —
+by default. This is the Least Privilege security principle because
 users only get access to what they absolutely need. Instead of
 direct login testing, systematic PowerShell verification was
 used to prove each component is working correctly.
