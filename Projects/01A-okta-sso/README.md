@@ -28,7 +28,7 @@ This demonstrates the ability to integrate a cloud Identity Provider with a SaaS
 
 ## Why This Matters for IAM Roles
 
-- SSO eliminates credential sprawl — one identity controls access to many applications
+- SSO eliminates credential sprawl - one identity controls access to many applications
 - SAML 2.0 is the enterprise standard for federated identity across SaaS platforms
 - Okta is one of the most widely deployed IdPs in enterprise environments
 - Zendesk is a realistic enterprise SaaS target used by support and ops teams globally
@@ -39,17 +39,17 @@ This demonstrates the ability to integrate a cloud Identity Provider with a SaaS
 
 | Step | Screenshot |
 |---|---|
-| Okta — Zendesk app overview | `screenshots/01-okta-app-catalog.png` |
+| Okta - Zendesk app overview | `screenshots/01-okta-app-catalog.png` |
 | SAML 2.0 selected as sign-on method | `screenshots/02-saml-signin-method.png` |
 | SAML metadata retrieved from Okta | `screenshots/03-okta-metadata.png` |
 | Zendesk SSO navigation | `screenshots/04-zendesk-sso-nav.png` |
 | Zendesk SAML configuration | `screenshots/05-zendesk-sso-config.png` |
 | SSO enabled in Zendesk | `screenshots/06-sso-enabled.png` |
 | Users assigned in Okta | `screenshots/07-user-assigned.png` |
-| SP-initiated login — Okta redirect | `screenshots/08-sp-initiated-login.png` |
-| SP-initiated login — Zendesk dashboard | `screenshots/09-idp-initiated-login.png` |
-| Okta end user dashboard — Zendesk tile | `screenshots/10-okta-dashboard-tile.png` |
-| IdP-initiated login — Zendesk dashboard | `screenshots/11-idp-initiated-success.png` |
+| SP-initiated login - Okta redirect | `screenshots/08-sp-initiated-login.png` |
+| SP-initiated login - Zendesk dashboard | `screenshots/09-idp-initiated-login.png` |
+| Okta end user dashboard - Zendesk tile | `screenshots/10-okta-dashboard-tile.png` |
+| IdP-initiated login - Zendesk dashboard | `screenshots/11-idp-initiated-success.png` |
 
 ---
 
