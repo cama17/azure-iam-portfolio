@@ -68,6 +68,7 @@ starkenterpriselab.com
 - [Phase 5 - User Accounts](Documentation/Phase5-user-accounts.md)
 - [Phase 6 - Verification](Documentation/Phase6-verification.md)
 - [Phase 7 - Client VM](Documentation/Phase7-client-vm.md)
+- [Phase 8 - Entra Connect](Documentation/Phase8-entra-connect.md)
 - [Design Decisions Log](Documentation/design-decisions.md)
 
 ## Skills Demonstrated
@@ -81,6 +82,6 @@ starkenterpriselab.com
 
 ## Future Enhancements
 - [x] Phase 7 - Windows 10 client VM joined to domain
-- [ ] Phase 8 - Entra ID Connect synchronization
+- [x] Phase 8 - Entra ID Connect synchronization
 - [ ] Phase 9 - Group Policy Object implementation
 - [ ] Phase 10 - Privileged Identity Management integration
