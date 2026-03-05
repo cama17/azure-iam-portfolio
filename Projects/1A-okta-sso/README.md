@@ -57,7 +57,7 @@ This demonstrates the ability to integrate a cloud Identity Provider with a SaaS
 
 | File | Description |
 |---|---|
-| `README.md` | This file — overview and key concepts |
+| `README.md` | This file - overview and key concepts |
 | `WALKTHROUGH.md` | Full step-by-step configuration with screenshots |
 
 ---

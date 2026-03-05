@@ -5,7 +5,7 @@
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 - ✅ Okta trial org with admin access (`trial-1192088.okta.com`)
 - ✅ Zendesk sandbox with admin access (`z3nlotrtest.zendesk.com`)
@@ -30,9 +30,9 @@ User is granted access — no Zendesk password ever used
 ```
 
 **Three components configured:**
-- **SSO URL** — where Zendesk sends authentication requests
-- **Issuer URI** — Okta's unique identifier, prevents assertion spoofing
-- **X.509 Certificate** — used by Zendesk to verify Okta's signature
+- **SSO URL** - where Zendesk sends authentication requests
+- **Issuer URI** - Okta's unique identifier, prevents assertion spoofing
+- **X.509 Certificate** - used by Zendesk to verify Okta's signature
 
 ---
 
@@ -42,7 +42,7 @@ User is granted access — no Zendesk password ever used
 
 Navigate to the Zendesk app in Okta Admin Console via **Applications → Applications**.
 
-![Okta Zendesk app overview](screenshots/01-okta-app-overview.png)
+![Okta Zendesk app overview](screenshots/01-okta-app-catalog.png)
 
 ---
 
@@ -122,7 +122,7 @@ Testing from Zendesk — user navigates to `z3nlotrtest.zendesk.com`, clicks Sig
 
 After authenticating in Okta, the user lands on the Zendesk agent dashboard.
 
-![SP-initiated — Zendesk dashboard](screenshots/09-sp-initiated-success.png)
+![SP-initiated — Zendesk dashboard](screenshots/09-idp-initiated-login.png)
 
 ---
 
