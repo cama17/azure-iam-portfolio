@@ -8,12 +8,17 @@ Cybersecurity graduate targeting an entry-level IAM Engineer or Identity Adminis
 Cybersecurity graduate focused on building practical IAM skills through hands-on lab work. Currently developing expertise in Active Directory, Microsoft Entra ID, and identity lifecycle management. Each project in this portfolio was built from scratch to understand not just how things work, but why they are designed that way.
 
 ## Hands-On Projects
-
 1. Enterprise SSO Implementation with Security Monitoring
 - Status: completed ✅
 - Technologies: Azure Entra ID, Conditional Access, Microsoft-356 Admin Center, Zendesk
 - Scenario: Implementing and securing SSO for enterprise applications with automated threat detection and response
 - [View Project](./Projects/01-enterprise-sso/)
+
+### 1A. Okta SSO with Zendesk (SAML 2.0)
+* **Status:** completed ✅
+* **Technologies:** Okta, SAML 2.0, Zendesk
+* **Scenario:** Configured SAML 2.0 Single Sign-On between Okta as the Identity Provider and Zendesk as the Service Provider for centralised agent authentication. Covers SP-initiated and IdP-initiated SSO flows, user assignment, and end-to-end verification.
+* [View Project](/Projects/01A-okta-sso)
 
 2. Zendesk SCIM Provisioning with MS Entra ID
 - Status: completed ✅
