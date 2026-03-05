@@ -14,7 +14,7 @@ Cybersecurity graduate focused on building practical IAM skills through hands-on
 - Scenario: Implementing and securing SSO for enterprise applications with automated threat detection and response
 - [View Project](./Projects/01-enterprise-sso/)
 
-### 1A. Okta SSO with Zendesk (SAML 2.0)
+1A. Okta SSO with Zendesk (SAML 2.0)
 * **Status:** completed ✅
 * **Technologies:** Okta, SAML 2.0, Zendesk
 * **Scenario:** Configured SAML 2.0 Single Sign-On between Okta as the Identity Provider and Zendesk as the Service Provider for centralised agent authentication. Covers SP-initiated and IdP-initiated SSO flows, user assignment, and end-to-end verification.
