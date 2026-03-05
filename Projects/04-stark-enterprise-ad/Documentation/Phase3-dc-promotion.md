@@ -1,4 +1,4 @@
-# Phase 3 — Domain Controller Promotion
+# Phase 3 - Domain Controller Promotion
 
 ## Objective
 Promote STARK-DC01 from a plain Windows Server into a fully

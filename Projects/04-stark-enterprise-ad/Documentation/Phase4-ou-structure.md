@@ -1,4 +1,4 @@
-# Phase 4 — Organizational Unit Structure
+# Phase 4 - Organizational Unit Structure
 
 ## Objective
 Design and implement the organizational skeleton of Stark Enterprises

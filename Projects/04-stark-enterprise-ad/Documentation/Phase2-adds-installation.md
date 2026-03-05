@@ -1,4 +1,4 @@
-# Phase 2 — AD DS Role Installation
+# Phase 2 - AD DS Role Installation
 
 ## Objective
 Install the Active Directory Domain Services role onto STARK-DC01,

@@ -1,4 +1,4 @@
-# Phase 1 — Server Foundation
+# Phase 1 - Server Foundation
 
 ## Objective
 Build the base Windows Server 2022 environment that will become 

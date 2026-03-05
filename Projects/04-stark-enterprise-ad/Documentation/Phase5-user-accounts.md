@@ -1,4 +1,4 @@
-# Phase 5 — User Account Creation
+# Phase 5 - User Account Creation
 
 ## Objective
 Create 15 user accounts across 6 Organizational Units following

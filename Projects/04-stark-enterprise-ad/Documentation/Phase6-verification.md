@@ -1,4 +1,4 @@
-# Phase 6 — Verification & Testing
+# Phase 6 - Verification & Testing
 
 ## Objective
 Systematically verify the Active Directory environment is fully
