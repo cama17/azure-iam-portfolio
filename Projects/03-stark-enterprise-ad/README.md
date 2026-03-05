@@ -25,7 +25,7 @@ integration with Microsoft Entra ID.
 
 ## What Was Built
 - ✅ Windows Server 2022 Domain Controller (STARK-DC01)
-- ✅ New Active Directory Forest — starkenterpriselab.com
+- ✅ New Active Directory Forest —> starkenterpriselab.com
 - ✅ 6 Organizational Units representing company departments
 - ✅ 15 user accounts with standardized UPN naming convention
 - ✅ Service accounts isolated in dedicated OU
@@ -67,6 +67,7 @@ starkenterpriselab.com
 - [Phase 4 - OU Structure](Documentation/Phase4-ou-structure.md)
 - [Phase 5 - User Accounts](Documentation/Phase5-user-accounts.md)
 - [Phase 6 - Verification](Documentation/Phase6-verification.md)
+- [Phase 7 - Client VM](Documentation/Phase7-client-vm.md)
 - [Design Decisions Log](Documentation/design-decisions.md)
 
 ## Skills Demonstrated
@@ -79,7 +80,7 @@ starkenterpriselab.com
 - Technical documentation and portfolio development
 
 ## Future Enhancements
-- [ ] Phase 8 — Windows 10 client VM joined to domain
-- [ ] Phase 9 — Entra ID Connect synchronization
-- [ ] Phase 10 — Group Policy Object implementation
-- [ ] Phase 11 — Privileged Identity Management integration
+- [x] Phase 7 — Windows 10 client VM joined to domain
+- [ ] Phase 8 — Entra ID Connect synchronization
+- [ ] Phase 9 — Group Policy Object implementation
+- [ ] Phase 10 — Privileged Identity Management integration
