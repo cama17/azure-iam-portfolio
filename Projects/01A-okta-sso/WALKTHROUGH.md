@@ -1,4 +1,4 @@
-# 1A — Walkthrough: Okta SSO with Zendesk (SAML 2.0)
+# 1A - Walkthrough: Okta SSO with Zendesk (SAML 2.0)
 
 > **Objective:** Configure SAML 2.0 SSO between Okta (IdP) and Zendesk (SP)  
 > **References:** [Okta SAML Docs](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Zendesk.html) · [Zendesk SSO Docs](https://support.zendesk.com/hc/en-us/articles/4408821683738)
@@ -14,7 +14,7 @@
 
 ---
 
-## SAML 2.0 Flow — What We're Building
+## SAML 2.0 Flow - What We're Building
 ```
 User clicks "Sign in with SSO" on Zendesk
         ↓
@@ -36,7 +36,7 @@ User is granted access — no Zendesk password ever used
 
 ---
 
-## PART 1 — Configure Zendesk App in Okta
+## PART 1 - Configure Zendesk App in Okta
 
 ### Step 1: Zendesk App in Okta
 
@@ -68,7 +68,7 @@ Clicking **"View SAML setup instructions"** reveals the three values needed by Z
 
 ---
 
-## PART 2 — Configure SSO in Zendesk
+## PART 2 - Configure SSO in Zendesk
 
 ### Step 4: Zendesk SSO Navigation
 
@@ -102,7 +102,7 @@ SSO is toggled ON with staff bypass enabled for break-glass access.
 
 ---
 
-## ⚙️ PART 3 — User Assignment in Okta
+## PART 3 — User Assignment in Okta
 
 ### Step 7: Users Assigned to Zendesk App
 
@@ -112,7 +112,7 @@ Users are assigned to the Zendesk app via the **Assignments** tab in Okta. Usern
 
 ---
 
-## PART 4 — Testing & Verification
+## PART 4 - Testing & Verification
 
 ### Step 8: SP-Initiated SSO
 
