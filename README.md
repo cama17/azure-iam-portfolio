@@ -14,23 +14,23 @@ Cybersecurity graduate focused on building practical IAM skills through hands-on
 - Scenario: Implementing and securing SSO for enterprise applications with automated threat detection and response
 - [View Project](./Projects/01-enterprise-sso/)
 
-1A. Okta SSO with Zendesk (SAML 2.0)
+2. Okta SSO with Zendesk (SAML 2.0)
 * **Status:** completed ✅
 * **Technologies:** Okta, SAML 2.0, Zendesk
 * **Scenario:** Configured SAML 2.0 Single Sign-On between Okta as the Identity Provider and Zendesk as the Service Provider for centralised agent authentication. Covers SP-initiated and IdP-initiated SSO flows, user assignment, and end-to-end verification.
-* [View Project](/Projects/01A-okta-sso)
+* [View Project](/Projects/02-okta-sso)
 
-2. Zendesk SCIM Provisioning with MS Entra ID
+3. Zendesk SCIM Provisioning with MS Entra ID
 - Status: completed ✅
 - Technologies: Entra ID, SCIM 2.0, User Provisioning, Zendesk
 - Scenario: Implement automated provisioning/deprovisioning of Zendesk users and groups via Microsoft Entra ID SCIM connector
-- [View Project](./Projects/02-zendesk-provisioning/)
+- [View Project](./Projects/03-zendesk-provisioning/)
 
-3. Stark Enterprise Active Directory Lab
+4. Stark Enterprise Active Directory Lab
 * Status: completed ✅
 * Technologies: Windows Server 2022, Active Directory Domain Services, DNS, PowerShell
 * Scenario: Designed and implemented a production-ready on-premises Active Directory environment for a fictional enterprise with 15 users across 6 departments, structured for future Entra ID hybrid identity synchronization
-* [View Project](/Projects/03-stark-enterprise-ad/README.md)
+* [View Project](/Projects/04-stark-enterprise-ad/README.md)
 
 ## Technical Skills
 
