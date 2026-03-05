@@ -26,11 +26,17 @@ Cybersecurity graduate focused on building practical IAM skills through hands-on
 - Scenario: Implement automated provisioning/deprovisioning of Zendesk users and groups via Microsoft Entra ID SCIM connector
 - [View Project](./Projects/03-zendesk-provisioning/)
 
-4. Stark Enterprise Active Directory Lab
+4. Okta SCIM Provisioning with Zendesk
+* Status: completed ✅
+* Technologies: Okta, SCIM, Zendesk, API Token Authentication
+* Scenario: Configured automated user provisioning and deprovisioning between Okta and Zendesk. Covers full identity lifecycle management including a complete investigation into email identity anchoring in Zendesk and SCIM read only restrictions.
+* [View Project](/Projects/04-okta-provisioning)
+
+5. Stark Enterprise Active Directory Lab
 * Status: completed ✅
 * Technologies: Windows Server 2022, Active Directory Domain Services, DNS, PowerShell
 * Scenario: Designed and implemented a production-ready on-premises Active Directory environment for a fictional enterprise with 15 users across 6 departments, structured for future Entra ID hybrid identity synchronization
-* [View Project](/Projects/04-stark-enterprise-ad/README.md)
+* [View Project](/Projects/05-stark-enterprise-ad/README.md)
 
 ## Technical Skills
 
