@@ -9,7 +9,7 @@ documentation standard expected of enterprise IAM engineers.
 
 ---
 
-## Decision 1 — Operating System Edition
+## Decision 1 - Operating System Edition
 
 **Context:**
 Windows Server 2022 offers two installation options — Desktop
@@ -32,7 +32,7 @@ surface and reduced vulnerability exposure.
 
 ---
 
-## Decision 2 — Server Naming Convention
+## Decision 2 - Server Naming Convention
 
 **Context:**
 Windows assigns a random default name to new servers.
@@ -55,7 +55,7 @@ and incident response speed.
 
 ---
 
-## Decision 3 — Static IP Address Assignment
+## Decision 3 - Static IP Address Assignment
 
 **Context:**
 Servers can receive IP addresses dynamically (DHCP) or have
@@ -78,7 +78,7 @@ requirement for any Domain Controller.
 
 ---
 
-## Decision 4 — DNS Configuration
+## Decision 4 - DNS Configuration
 
 **Context:**
 The Domain Controller needs a DNS server to resolve domain
@@ -102,7 +102,7 @@ to them would cause all internal DNS lookups to fail.
 
 ---
 
-## Decision 5 — Forest Functional Level
+## Decision 5 - Forest Functional Level
 
 **Context:**
 Forest and Domain Functional Levels determine which AD
@@ -126,7 +126,7 @@ Domain Controller in the environment.
 
 ---
 
-## Decision 6 — Domain Name Selection
+## Decision 6 - Domain Name Selection
 
 **Context:**
 The AD forest root domain name must be chosen carefully
@@ -150,7 +150,7 @@ environment for hybrid identity integration.
 
 ---
 
-## Decision 7 — OU Structure Design
+## Decision 7 - OU Structure Design
 
 **Context:**
 Users and computers must be organized inside Active Directory.
@@ -174,7 +174,7 @@ at the organizational boundary level.
 
 ---
 
-## Decision 8 — ServiceAccounts OU Isolation
+## Decision 8 - ServiceAccounts OU Isolation
 
 **Context:**
 Service accounts could be placed in department OUs or
@@ -198,7 +198,7 @@ the risk of accidental modification.
 
 ---
 
-## Decision 9 — Accidental Deletion Protection
+## Decision 9 - Accidental Deletion Protection
 
 **Context:**
 Active Directory allows OUs to be deleted along with all
@@ -216,7 +216,7 @@ preventing career-ending mistakes in production environments.
 
 ---
 
-## Decision 10 — User Naming Convention
+## Decision 10 - User Naming Convention
 
 **Context:**
 Enterprise user accounts require a consistent naming standard
@@ -245,13 +245,13 @@ conventions making it intuitive for end users.
 Every decision in this project was made deliberately with
 three criteria in mind:
 
-1. **Security** — Does this choice reduce attack surface
+1. **Security** - Does this choice reduce attack surface
    and follow least privilege principles?
 
-2. **Scalability** — Does this choice work at enterprise
+2. **Scalability** - Does this choice work at enterprise
    scale with hundreds or thousands of users?
 
-3. **Cloud Readiness** — Does this choice prepare the
+3. **Cloud Readiness** - Does this choice prepare the
    environment for hybrid identity integration with
    Microsoft Entra ID?
 
