@@ -1,4 +1,4 @@
-# 1A - Walkthrough: Okta SSO with Zendesk (SAML 2.0)
+# 02 - Walkthrough: Okta SSO with Zendesk (SAML 2.0)
 
 > **Objective:** Configure SAML 2.0 SSO between Okta (IdP) and Zendesk (SP)  
 > **References:** [Okta SAML Docs](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Zendesk.html) · [Zendesk SSO Docs](https://support.zendesk.com/hc/en-us/articles/4408821683738)

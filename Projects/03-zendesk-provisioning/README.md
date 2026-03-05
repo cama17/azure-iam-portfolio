@@ -1,4 +1,4 @@
-# Project 02: Zendesk Provisioning with Microsoft Entra ID
+# Project 03: Zendesk Provisioning with Microsoft Entra ID
 
 **Objective**  
 Automate user provisioning and deprovisioning between Microsoft Entra ID and Zendesk. Demonstrates lifecycle management beyond authentication, ensuring joiner/mover/leaver processes are enforced.

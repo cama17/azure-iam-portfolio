@@ -1,4 +1,4 @@
-# 1A - Okta SSO with Zendesk (SAML 2.0)
+# 02 - Okta SSO with Zendesk (SAML 2.0)
 
 > **Status:** ✅ Completed & Tested  
 > **Environment:** Trial Okta Org + Zendesk Sandbox
