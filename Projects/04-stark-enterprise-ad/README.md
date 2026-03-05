@@ -80,7 +80,7 @@ starkenterpriselab.com
 - Technical documentation and portfolio development
 
 ## Future Enhancements
-- [x] Phase 7 — Windows 10 client VM joined to domain
-- [ ] Phase 8 — Entra ID Connect synchronization
-- [ ] Phase 9 — Group Policy Object implementation
-- [ ] Phase 10 — Privileged Identity Management integration
+- [x] Phase 7 - Windows 10 client VM joined to domain
+- [ ] Phase 8 - Entra ID Connect synchronization
+- [ ] Phase 9 - Group Policy Object implementation
+- [ ] Phase 10 - Privileged Identity Management integration
