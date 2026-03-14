@@ -38,6 +38,12 @@ Cybersecurity graduate focused on building practical IAM skills through hands-on
 * Scenario: Designed and implemented a production-ready on-premises Active Directory environment for a fictional enterprise with 15 users across 6 departments, structured for future Entra ID hybrid identity synchronization
 * [View Project](/Projects/05-stark-enterprise-ad/README.md)
 
+6. **Stark Enterprise Entra ID Lab (SC-300 Edition)**
+* Status: in progress 🔄
+* Technologies: Microsoft Entra ID (Premium P2), Entra Connect, PowerShell 7, Microsoft Graph API
+* Scenario: Extends the on-premises AD lab into a full hybrid identity environment. Covers identity management, access control, security policies, and governance workflows aligned to SC-300 exam objectives across 15 phases.
+* [View Project](/Projects/06-stark-enterprise-entra/README.md)
+
 ## Technical Skills
 
 **Identity & Access Management**
@@ -46,26 +52,29 @@ Cybersecurity graduate focused on building practical IAM skills through hands-on
 * Azure Entra ID Configuration & Administration
 * Conditional Access Policy Design & Implementation
 * Single Sign-On (SSO) Integration & Security
-* User Provisioning & Deprovisioning (SCIM 2.0)
+* User Provisioning & Deprovisioning
 * Identity Lifecycle Management
+* Hybrid Identity (Entra ID Connect)
 
 **Automation & Scripting**
 
 * PowerShell for Active Directory administration (learning)
-* Microsoft Graph API Integration
+* Microsoft Graph API Integration 
 * Security Monitoring & Alerting Systems
 
 **In Progress**
 
 * Privileged Identity Management (PIM)
 * Identity Governance & Access Reviews
-* Hybrid Identity (Entra ID Connect)
 * PowerShell scripting for identity automation
 * Automated Compliance Reporting
+* Conditional Access policy design
+* SC-300 Identity and Access Administrator Associate 
   
 ## Professional Certifications
 **Microsoft Security & Identity**
 - Microsoft SC-900: Security, Compliance, and Identity Fundamentals (2025)
+- Microsoft SC-300: Identity and Access Administrator Associate (In Progress - 2025)
 
 **Identity and Access Management**
 - Certified Access Management Specialist (2025)
