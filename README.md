@@ -41,7 +41,7 @@ Cybersecurity graduate focused on building practical IAM skills through hands-on
 6. **Stark Enterprise Entra ID Lab (SC-300 Edition)**
 * Status: in progress 🔄
 * Technologies: Microsoft Entra ID (Premium P2), Entra Connect, PowerShell 7, Microsoft Graph API
-* Scenario: Extends the on-premises AD lab into a full hybrid identity environment. Covers identity management, access control, security policies, and governance workflows aligned to SC-300 exam objectives across 15 phases.
+* Scenario: Extends the on-premises AD lab into a full hybrid identity environment. Covers identity management, access control, security policies, and governance workflows aligned to SC-300 exam objectives across 18 phases.
 * [View Project](/Projects/06-stark-enterprise-entra/README.md)
 
 ## Technical Skills
