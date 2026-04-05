@@ -53,7 +53,7 @@ B2B Guest using their own external email address.
 | SG-Operations | Steve Rogers, Sam Wilson, Bucky Barnes, Happy Hogan, Pepper Potts |
 | SG-Contractors | Logan, JARVIS |
 | SG-All-Employees | All 16 internal users |
-| SG-Privileged-Eligible | mcguinness.craig@starkenterpriselab.com |
+| SG-Privileged-Eligible | user.example@starkenterpriselab.com |
 
 Note: Jennifer Walters and Matt Murdock are Legal department users
 synced from on-premises AD. There is no SG-Legal group in this
