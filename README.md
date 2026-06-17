@@ -49,7 +49,7 @@ enterprise-focused lab projects.
 - [View Project](./Projects/05-stark-enterprise-ad/)
 
 ### 6. Stark Enterprise Hybrid Identity Lab
-- **Status:** ✅ Complete
+- **Status:** In progress 🔄
 - **Tools:** Microsoft Entra ID Premium P2 · Entra Connect · PowerShell · Microsoft Graph API
 - **Scenario:** Extends the on-premises AD lab into a full hybrid identity environment covering identity management, access control, security policies, and governance workflows
 - [View Project](./Projects/06-stark-enterprise-entra/)
@@ -66,8 +66,8 @@ enterprise-focused lab projects.
 - SCIM 2.0 User Provisioning & Deprovisioning
 - Identity Lifecycle Management
 - Hybrid Identity (Entra ID Connect)
-- Privileged Identity Management (PIM) — in progress
-- Identity Governance & Access Reviews — in progress
+- Privileged Identity Management (PIM)
+- Identity Governance & Access Reviews
 
 **Automation & Scripting**
 - PowerShell for Active Directory Administration
@@ -84,7 +84,7 @@ enterprise-focused lab projects.
 
 | Certification | Issuer | Year |
 |---|---|---|
-| AZ-500: Azure Security Engineer Associate | Microsoft | In Progress |
+| SC-300: Identity and Access Management Associate | Microsoft | In Progress |
 | SC-900: Security, Compliance & Identity Fundamentals | Microsoft | 2025 |
 | Certified Access Management Specialist (CAMS) | Identity Institute | 2025 |
 | AWS Certified Cloud Practitioner | Amazon Web Services | 2025 |
