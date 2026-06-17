@@ -82,15 +82,15 @@ all four exam modules:
 |---|---|---|---|
 | 01 | Hybrid Identity Review | Lab 07 | Complete |
 | 02 | Cloud Users and B2B Collaboration | Labs 04, 05 | Complete |
-| 03 | Groups and Licensing | Labs 01, 03 | In Progress |
-| 04 | Dynamic Groups | Lab 03 | Planned |
-| 05 | Tenant Properties and Roles | Labs 01, 02 | Planned |
-| 06 | Federated Identity Provider | Lab 06 | Planned |
-| 07 | PowerShell and Graph API | Lab 01 | Planned |
-| 08 | Security Baseline - MFA and SSPR | Labs 08, 09, 15 | Planned |
-| 09 | Conditional Access | Labs 13, 14 | Planned |
-| 10 | Conditional Access Strategy Document | Labs 13, 14 | Planned |
-| 11 | Privileged Identity Management | Labs 11, 26 | Planned |
+| 03 | Groups and Licensing | Labs 01, 03 | Complete |
+| 04 | Dynamic Groups | Lab 03 | Complete |
+| 05 | Tenant Properties and Roles | Labs 01, 02 | Complete |
+| 06 | Federated Identity Provider | Lab 06 | Complete |
+| 07 | PowerShell and Graph API | Lab 01 | Complete |
+| 08 | Security Baseline - MFA and SSPR | Labs 08, 09, 15 | Complete |
+| 09 | Conditional Access | Labs 13, 14 | Complete |
+| 10 | Conditional Access Strategy Document | Labs 13, 14 | Complete |
+| 11 | Privileged Identity Management | Labs 11, 26 | Complete |
 | 12 | Identity Governance and JML | Labs 22, 23, 24, 25 | Planned |
 | 13 | Enterprise Applications and SCIM | Labs 19, 20, 21 | Planned |
 | 14 | Salesforce SAML SSO | Labs 19, 20 | Planned |
