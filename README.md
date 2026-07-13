@@ -54,6 +54,12 @@ enterprise-focused lab projects.
 - **Scenario:** Extends the on-premises AD lab into a full hybrid identity environment covering identity management, access control, security policies, and governance workflows
 - [View Project](./Projects/06-stark-enterprise-entra/)
 
+### 7. Stark Enterprise Wise Integration
+- **Status:** ✅ Complete
+- **Tools:** Microsoft Entra ID · Azure Key Vault · Azure Functions (Python, Flex Consumption) · Managed Identity · Azure RBAC · Elastic Cloud · Kibana
+- **Scenario:** Built an internal payment gateway wrapping the Wise sandbox API behind an Entra ID App Registration, Key Vault, and a system assigned Managed Identity with zero hardcoded credentials, then diagnosed four deliberately introduced failure scenarios using HTTP response signatures and Kibana platform logs
+- [View Project](./Projects/07-stark-enterprise-wise-integration/)
+
 ---
 
 ## 🛠️ Technical Skills
