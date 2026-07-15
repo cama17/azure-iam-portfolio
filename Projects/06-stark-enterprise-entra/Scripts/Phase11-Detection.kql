@@ -1,0 +1,41 @@
+// Phase 11 - Identity Governance and JML
+// Detection rule: flag access package removals not attributable to
+// the known lab admin account.
+//
+// CAVEAT: drafted from a single observed AuditLogs event during this
+// phase's break test. The TargetResources array shape is not
+// independently verified across multiple real events - treat this as
+// a starting point, not a production-ready rule.
+//
+// Intent: an access-package assignment removal is expected when an
+// access review auto-removes someone, or when the known lab admin
+// removes access intentionally (e.g. as part of this build's break
+// test). Anything else showing up here is worth investigating.
+
+AuditLogs
+| where Category == "EntitlementManagement"
+| where ActivityDisplayName == "Remove access package resource assignment"
+| where InitiatedBy.user.userPrincipalName !has "mcguinness.craig"
+| project TimeGenerated, ActivityDisplayName, InitiatedBy, TargetResources, Result
+
+// --- Evidence queries used during the actual break test ---
+
+// Confirms the removal event itself (real result, captured 2026-07-15):
+// ActivityDisplayName: "Remove access package resource assignment"
+// InitiatedBy: Azure AD (system), Result: success
+AuditLogs
+| where TimeGenerated > ago(1h)
+| where Category in ("EntitlementManagement", "AccessReviews")
+| where TargetResources has "Steve" or TargetResources has "Engineering Contractor Access"
+| project TimeGenerated, ActivityDisplayName, InitiatedBy, TargetResources, Result
+| order by TimeGenerated desc
+
+// Confirms the sign-in was blocked by assignment enforcement (AADSTS50105),
+// not Conditional Access - ConditionalAccessStatus reads "success" on the
+// same row, proving CA evaluated cleanly and was not what fired.
+SigninLogs
+| where TimeGenerated > ago(1h)
+| where UserPrincipalName has "Steve"
+| where AppDisplayName == "Stark-Governance-Test-App"
+| project TimeGenerated, UserPrincipalName, AppDisplayName, ResultType, ResultDescription, ConditionalAccessStatus
+| order by TimeGenerated desc

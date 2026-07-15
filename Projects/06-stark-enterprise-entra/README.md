@@ -91,13 +91,19 @@ all four exam modules:
 | 09 | Conditional Access | Labs 13, 14 | Complete |
 | 10 | Conditional Access Strategy Document | Labs 13, 14 | Complete |
 | 11 | Privileged Identity Management | Labs 11, 26 | Complete |
-| 12 | Identity Governance and JML | Labs 22, 23, 24, 25 | Planned |
+| 12 | Identity Governance and JML | Labs 22, 23, 24, 25 | Complete |
 | 13 | Enterprise Applications and SCIM | Labs 19, 20, 21 | Planned |
 | 14 | Salesforce SAML SSO | Labs 19, 20 | Planned |
 | 15 | Azure VM and Key Vault | Labs 10, 16 | Planned |
 | 16 | Defender for Cloud Apps | Labs 17, 18 | Planned |
 | 17 | Microsoft Sentinel and KQL | Lab 27 | Planned |
 | 18 | Secure Score and Finalization | Lab 28 | Planned |
+
+> Note: this table's row numbers have historically drifted from the
+> `Documentation/Phase*.md` filenames (e.g. this row is "12" here but
+> the file is `Phase11-Identity-Governance.md`). Content and status are
+> authoritative; row numbers are not. Not renumbering the whole table
+> retroactively to avoid re-litigating phases not touched in this pass.
 
 ## Repository Structure
 - `/Documentation`: Markdown runbooks for each phase
