@@ -1,0 +1,19 @@
+// Project 08 - Risk-Based Conditional Access + Identity Protection
+// Both queries run for real against the governance-lab-logs Log
+// Analytics workspace, extended in this lab with the UserRiskEvents
+// and RiskyUsers diagnostic categories.
+
+// Real, unresolved anonymized-IP risk events - what a SOC query
+// would surface if this were wired to an alert instead of run by hand.
+AADUserRiskEvents
+| where RiskEventType == "anonymizedIPAddress"
+| where RiskState == "atRisk"
+| project TimeGenerated, UserPrincipalName, RiskLevel, IpAddress, DetectedDateTime
+| order by TimeGenerated desc
+
+// Full risk state timeline for a specific user, across dismiss,
+// re-detection, and remediation.
+AADRiskyUsers
+| where UserPrincipalName == "loki@starkenterpriselab.com"
+| project TimeGenerated, RiskLevel, RiskState, RiskDetail, RiskLastUpdatedDateTime
+| order by TimeGenerated desc

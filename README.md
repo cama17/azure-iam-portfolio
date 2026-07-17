@@ -60,6 +60,12 @@ enterprise-focused lab projects.
 - **Scenario:** Built an internal payment gateway wrapping the Wise sandbox API behind an Entra ID App Registration, Key Vault, and a system assigned Managed Identity with zero hardcoded credentials, then diagnosed four deliberately introduced failure scenarios using HTTP response signatures and Kibana platform logs
 - [View Project](./Projects/07-stark-enterprise-wise-integration/)
 
+### 8. Stark Enterprise Identity Protection
+- **Status:** ✅ Complete
+- **Tools:** Microsoft Entra ID P2 (Identity Protection) · Conditional Access · Microsoft Graph PowerShell SDK · Azure Log Analytics (KQL)
+- **Scenario:** Built a risk-based Conditional Access policy scoped to a pilot group, triggered a real anonymized-IP risk detection, and investigated and remediated the flagged account through Microsoft Graph PowerShell, tracing why a dismissed risk still produced a second real AADSTS53004 block before finding the fix that actually worked
+- [View Project](./Projects/08-stark-enterprise-identity-protection/)
+
 ---
 
 ## 🛠️ Technical Skills
