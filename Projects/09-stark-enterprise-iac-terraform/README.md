@@ -4,10 +4,10 @@
 Every prior project in this portfolio was built by hand, clicking through
 the Entra admin center. That works, but it does not scale, it leaves no
 record of why a setting is what it is, and if someone changes something
-manually, nothing catches it. An interviewer will not just ask "is this
-Conditional Access policy configured." They will ask "how do you know it
-still matches what's documented, and how would you find out if someone
-changed it by hand last Tuesday?" Portal screenshots cannot answer that. A
+manually, nothing catches it. Whether a Conditional Access policy is
+configured isn't the real question. The real question is whether it still
+matches what's documented, and whether anyone would find out if someone
+changed it by hand last Tuesday. Portal screenshots cannot answer that. A
 drift-detection pipeline can.
 
 ## Solution

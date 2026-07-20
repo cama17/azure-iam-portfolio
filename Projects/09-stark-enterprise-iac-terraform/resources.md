@@ -12,8 +12,8 @@ actually deployed against the real tenant during this lab, with
 Written with AI assistance, reviewed and understood line by line before
 running, consistent with standard engineering practice of validating any
 code before it touches a real environment. The detailed line-by-line
-comments in each `.tf` file exist for portfolio and interview
-transparency. They are denser than production code would typically carry.
+comments in each `.tf` file exist for transparency into how this was
+built. They are denser than production code would typically carry.
 
 ## Still open
 - The 530001 browser/WAM error's relationship to device compliance is not
