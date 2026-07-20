@@ -66,6 +66,12 @@ enterprise-focused lab projects.
 - **Scenario:** Built a risk-based Conditional Access policy scoped to a pilot group, triggered a real anonymized-IP risk detection, and investigated and remediated the flagged account through Microsoft Graph PowerShell, tracing why a dismissed risk still produced a second real AADSTS53004 block before finding the fix that actually worked
 - [View Project](./Projects/08-stark-enterprise-identity-protection/)
 
+### 9. Entra ID as Code (Terraform), Conditional Access + Drift Detection
+- **Status:** ✅ Complete
+- **Tools:** Terraform (`hashicorp/azuread` provider) · Microsoft Entra ID P2 · Conditional Access · Microsoft Graph API · Azure Log Analytics (KQL)
+- **Scenario:** Managed a real Conditional Access policy and security group as Terraform code instead of portal clicks, validated it in report-only mode against real sign-in log evidence, then proved an out-of-band manual change to the policy gets caught by `terraform plan` and reversed by `terraform apply` instead of silently drifting
+- [View Project](./Projects/09-stark-enterprise-iac-terraform/)
+
 ---
 
 ## 🛠️ Technical Skills
@@ -84,6 +90,7 @@ enterprise-focused lab projects.
 **Automation & Scripting**
 - PowerShell for Active Directory Administration
 - Microsoft Graph API Integration
+- Infrastructure as Code (Terraform, `hashicorp/azuread` provider)
 
 **Security Operations**
 - Microsoft Sentinel (SIEM) — in progress

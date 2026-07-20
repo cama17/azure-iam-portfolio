@@ -1,0 +1,15 @@
+// Project 09 - Entra ID as Code (Terraform), Conditional Access + Drift Detection
+// Runs for real against the tenant's default SigninLogs table. No new
+// diagnostic setting or Log Analytics workspace was built for this lab -
+// unlike Project 08, this query reads what the tenant already collects.
+
+// Real sign-in timeline for the pilot user, most recent first. This is what
+// caught both real failure modes during the break: the 530001 browser/WAM
+// gate on the first attempt, and the actual 50097 compliance failure on the
+// second attempt from a browser capable of completing the device-auth
+// handshake.
+SigninLogs
+| where UserPrincipalName == "tony.stark@starkenterpriselab.com"
+| where TimeGenerated > ago(1h)
+| project TimeGenerated, AppDisplayName, ResultType, ResultDescription, ConditionalAccessStatus, DeviceDetail
+| order by TimeGenerated desc
