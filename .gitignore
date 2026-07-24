@@ -417,3 +417,10 @@ FodyWeavers.xsd
 *.msm
 *.msp
 .DS_Store
+
+# Private working docs (mentoring instructions, internal ledger, drafts)
+PORTFOLIO-STATE.md
+career-narrative.md
+CLAUDE.md
+KICKOFF-PROMPT.md
+RICHMOND-LAB-BRIEF.md
